@@ -27,7 +27,7 @@ function addTask(txt) {
   containerButton.classList = "divButton";
   
   const close = document.createElement("img");
-    close.src = "../media/delet.png";
+    close.src = "media/delet.png";
     close.className = "sButton";
     close.className = "deletJustify";
 
@@ -42,7 +42,7 @@ function addTask(txt) {
   });
 
     const done = document.createElement("img");
-    done.src = "../media/done.png";
+    done.src = "media/done.png";
     done.className = "sButton";
     done.className = "doneJustify";
     
